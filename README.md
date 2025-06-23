@@ -353,9 +353,9 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
 
 <div align="center">
   
-  ### 🥇 **Industry Recognition**
-  
-  <iframe src="demo-images/Certificate%20of%20bal%20CDIO%202024_Karim%20Feki.pdf" width="100%" height="600px"></iframe>
+  ### 🏅 Industry Recognition
+
+   [📄 View Certificate of bal CDIO 2024 - Karim Feki (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Karim%20Feki.pdf)
   
 </div>
 
