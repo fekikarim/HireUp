@@ -1,0 +1,7 @@
+/* Default styles for counters */
+.like-counter,
+.comment-counter,
+.share-counter {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between counters */
+}

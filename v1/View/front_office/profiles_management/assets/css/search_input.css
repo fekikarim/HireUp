@@ -1,0 +1,303 @@
+.container-fluid .search-container .form {
+    --input-text-color: #000;
+    --input-bg-color: #F5F5F5;
+    --focus-input-bg-color: transparent;
+    --text-color: #949faa;
+    --active-color: #40a2d8;
+    --width-of-input: 200px;
+    --inline-padding-of-input: 1.2em;
+    --gap: 0.9rem;
+  }
+  
+  /* form style */
+  .container-fluid .search-container .form {
+    font-size: 0.9rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: var(--width-of-input);
+    position: relative;
+    isolation: isolate;
+  }
+  
+  /* a fancy bg for showing background and border when focus. */
+  .fancy-bg {
+    position: absolute;
+    width: 100%;
+    inset: 0;
+    background: var(--input-bg-color);
+    border-radius: 30px;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px !important;
+  }
+  
+  /* label styling */
+  .container-fluid .search-container form.form > label {
+    width: 100%;
+    padding: 0.8em;
+    height: 40px;
+    padding-inline: var(--inline-padding-of-input);
+    display: flex;
+    align-items: center;
+  }
+  
+  div.search,
+  .close-btn {
+    position: absolute;
+  }
+  
+  /* styling search-icon */
+  div.search {
+    fill: var(--text-color);
+    left: var(--inline-padding-of-input);
+  }
+  
+  /* svg -- size */
+  div.search > svg {
+    width: 17px;
+    display: block;
+  }
+  
+  /* styling of close button */
+  button.close-btn {
+    border: none;
+    right: var(--inline-padding-of-input);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0.1em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--active-color);
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* styling of input */
+  form.form label .input {
+    color: var(--input-text-color);
+    width: 100%;
+    margin-inline: min(2em, calc(var(--inline-padding-of-input) + var(--gap)));
+    background: none;
+    border: none;
+  }
+  
+  form.form label .input:focus {
+    outline: none;
+  }
+  
+  form.form label .input::placeholder {
+    color: var(--text-color);
+  }
+  
+  /* input background change in focus */
+  form.form label .input:focus ~ .fancy-bg {
+    border: 1px solid var(--active-color);
+    background: var(--focus-input-bg-color);
+  }
+  
+  /* search icon color change in focus */
+  form.form label .input:focus ~ .search {
+    fill: var(--active-color);
+  }
+  
+  /* showing close button when typing */
+  form.form label .input:valid ~ .close-btn {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* this is for the default background in input,when selecting autofill options -- you can remove this code if you do not want to override the browser style.  */
+  form.form label input:-webkit-autofill,
+  form.form label input:-webkit-autofill:hover,
+  form.form label input:-webkit-autofill:focus,
+  form.form label input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+  }
+  
+  @media (max-width: 675px) {
+    div.search-container {
+      display: none;
+    }
+  }
+  
+  .rounded_button_bar {
+    border-radius: 25px;
+    /* Adjust the border radius as needed */
+    width: 50px;
+    /* Adjust the width of the buttons */
+    height: 50px;
+    /* Adjust the height of the buttons */
+    font-size: 22px;
+    /* Adjust the font size of the icons */
+    padding: 0;
+    /* Remove padding to make the buttons tighter */
+    color: #40a2d8;
+    background-color: transparent;
+    border: none;
+    /* Remove border */
+  }
+  
+  .rounded_button_bar:hover {
+    background-color: rgba(64, 162, 216, 0.5);
+    color: #0b60b0;
+    border: none;
+  }
+  
+  .rounded_button_bar.active {
+    background-color: #0d6efd;
+    /* Change background color when active */
+    color: #f5f5f5;
+    /* Change text color when active */
+  }
+  
+  .notification-dropdown {
+    width: 350px;
+    /* Adjust the width of the dropdown menu */
+    max-height: 400px;
+    /* Set maximum height to enable scrolling */
+    overflow-y: auto;
+    /* Enable vertical scrolling if needed */
+  }
+  
+  .notification-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .notification-message {
+    flex: 1;
+    /* Allow message to grow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .notification-time {
+    margin-left: 10px;
+    /* Adjust spacing between message and time */
+  }
+  
+  .rounded_button_bar {
+    border-radius: 25px;
+    /* Adjust the border radius as needed */
+    width: 50px;
+    /* Adjust the width of the buttons */
+    height: 50px;
+    /* Adjust the height of the buttons */
+    font-size: 22px;
+    /* Adjust the font size of the icons */
+    padding: 0;
+    /* Remove padding to make the buttons tighter */
+    color: #40A2D8;
+    background-color: transparent;
+    border: none; /* Remove border */
+  }
+
+  .rounded_button_bar:hover {
+    background-color: rgba(64, 162, 216, 0.5);
+    color: #0B60B0;
+    border: none;
+  }
+
+  .rounded_button_bar.active {
+    background-color: #0d6efd;
+    /* Change background color when active */
+    color: #F5F5F5;
+    /* Change text color when active */
+  }
+
+
+  .btn-accept-user {
+    background-color: #4caf50;
+    /* Gray background */
+    color: #fff;
+    /* White text */
+    border: none;
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    cursor: pointer;
+  }
+
+  .btn-accept-user:hover {
+    background-color: #61677A;
+    color: white;
+    /* Green background on hover */
+  }
+
+  .btn-refuse-user {
+    background-color: red;
+    color: #fff;
+    /* Text color */
+    border: none;
+    /* Remove border */
+    padding: 8px 16px;
+    /* Adjust padding as needed */
+    border-radius: 4px;
+    /* Add rounded corners */
+  }
+
+  .btn-refuse-user:hover {
+    background-color: #61677A;
+    color: white;
+  }
+  
+
+
+
+  .container-fluid .search-container .profiles-container {
+    display: none;
+    /* Initially hidden */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    z-index: 10;
+  }
+
+  .profiles-container .profile-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+
+  .profiles-container .profile-card:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #f0f0f0; /* Darken the background color on hover */
+  }
+
+  .profiles-container .profile-card:last-child {
+    border-bottom: none;
+  }
+
+  .profiles-container .profile-card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .profiles-container .profile-card .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profiles-container .profile-card .profile-name {
+    font-weight: bold;
+  }
+
+  .profiles-container .profile-card .profile-job {
+    color: #666;
+  }

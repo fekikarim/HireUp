@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Signature Verification</title>
+</head>
+<body>
+    <input type="file" id="file-input" />
+    <script>
+        // Example public key in PEM format (should match the key used to sign the data)
+        const publicKeyPem = `-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwGQwjF6EOJ7I0S+VH1Nx
+AlJ6YfOnMY5cf5972jmMFFgb2nbL6j4fgwhrerydaK/AivL1p2rgzSYMAWIBuTnf
+gc3nyZcVZkcZ3riTpCp7tvAnLxn8icIIzNkcdw92t3huFVt970gtkI3NTn03MmH7
+6zxx8JmmX1dTfMSxU6sdatTddgn8Rv/GR4RL2CFzPLd87m9VFGpi0L7zTx/qMr3z
+MoOM24DOntFKhyV6vZHSAeye1ugGGXIUnUZ7vN45IaE69VYbKZ1/w6HSzqa4mnsz
+NWTfulC0QdKj+7nZmTUhXCYTO0t+MecLuEzrlLZiNT5igNyDMz1glLLdjpFBBVY8
+rwIDAQAB
+-----END PUBLIC KEY-----`;
+
+        // Convert PEM to CryptoKey
+        async function importPublicKey(pem) {
+            const pemHeader = "-----BEGIN PUBLIC KEY-----";
+            const pemFooter = "-----END PUBLIC KEY-----";
+            const pemContents = pem.substring(pemHeader.length, pem.length - pemFooter.length).replace(/\n/g, '');
+            const binaryDerString = window.atob(pemContents);
+            const binaryDer = str2ab(binaryDerString);
+            return window.crypto.subtle.importKey(
+                "spki",
+                binaryDer,
+                {
+                    name: "RSA-PSS",
+                    hash: "SHA-256"
+                },
+                true,
+                ["verify"]
+            );
+        }
+
+        // Convert a base64 string to ArrayBuffer
+        function str2ab(str) {
+            const buf = new ArrayBuffer(str.length);
+            const bufView = new Uint8Array(buf);
+            for (let i = 0, strLen = str.length; i < strLen; i++) {
+                bufView[i] = str.charCodeAt(i);
+            }
+            return buf;
+        }
+
+        // Verify the signature
+        async function verifySignature(publicKey, data, signature) {
+            const encoder = new TextEncoder();
+            const dataBuffer = encoder.encode(data);
+
+            // Base64 decode the signature
+            const signatureBuffer = Uint8Array.from(atob(signature), c => c.charCodeAt(0));
+            const isValid = await crypto.subtle.verify(
+                {
+                    name: "RSA-PSS",
+                    saltLength: 32,
+                },
+                publicKey,
+                signatureBuffer,
+                dataBuffer
+            );
+            return isValid;
+        }
+
+        // Handle file input change
+        document.getElementById('file-input').addEventListener('change', async function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = async function (e) {
+                    const qrCodeData = e.target.result.trim(); // Trim any extra whitespace
+                    const [data, signature] = qrCodeData.split('||').map(part => part.trim());
+
+                    if (!data || !signature) {
+                        alert('Data or signature is missing or malformed.');
+                        return;
+                    }
+
+                    const publicKey = await importPublicKey(publicKeyPem);
+
+                    try {
+                        const isValid = await verifySignature(publicKey, data, signature);
+                        if (isValid) {
+                            alert('Signature is valid.');
+                        } else {
+                            alert('Signature is invalid.');
+                        }
+                    } catch (error) {
+                        console.error('Verification error:', error);
+                        alert('Error verifying the signature.');
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+    </script>
+</body>
+</html>

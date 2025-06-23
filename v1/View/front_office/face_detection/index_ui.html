@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        #videoContainer {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        #video {
+            width: 100%;
+        }
+        #captureBtn,
+        #cancelBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        #captureBtn:not([disabled]),
+        #cancelBtn:not([disabled]) {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #captureBtn[disabled],
+        #cancelBtn[disabled] {
+            background-color: #dddddd;
+            color: #aaaaaa;
+        }
+
+        #captureBtn:hover:not([disabled]),
+        #cancelBtn:hover:not([disabled]) {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video id="video" width="640" height="480" autoplay muted></video>
+        <br>
+        <button id="captureBtn" disabled>Capture</button>
+        <canvas id="canvas" style="display: none;"></canvas>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="capture.js"></script>
+</body>
+</html>

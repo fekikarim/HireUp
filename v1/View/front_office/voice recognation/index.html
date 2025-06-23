@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annyang Example</title>
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+</head>
+<body>
+<h1>Annyang Example</h1>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (annyang) {
+    var commands = {
+      'hello': function() {
+        alert('Hello there!');
+      },
+      'show me :query': function(query) {
+        alert('You said: ' + query);
+      }
+    };
+
+    annyang.addCommands(commands);
+
+    annyang.start();
+  }
+});
+</script>
+</body>
+</html>

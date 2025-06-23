@@ -1,0 +1,13 @@
+{
+    "require": {
+        "google/apiclient": "^2.16",
+        "infobip/infobip-api-php-client": "^5.1",
+        "stripe/stripe-php": "^14.6",
+        "mpdf/mpdf": "^8.2",
+        "endroid/qr-code": "^5.0",
+        "web-token/jwt-framework": "^3.4",
+        "firebase/php-jwt": "^6.10",
+        "dompdf/dompdf": "^3.0"
+
+    }
+}

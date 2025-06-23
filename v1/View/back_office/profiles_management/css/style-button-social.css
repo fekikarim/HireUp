@@ -1,0 +1,43 @@
+.btn-social-login {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .btn-social-login:hover {
+    border: 1px solid #2d79f3;
+  }
+
+  #Layer_1 {
+    enable-background: new 0 0 512 512;
+  }
+
+  #path1 {
+    fill: #fbbb00;
+  }
+
+  #path2 {
+    fill: #518ef8;
+  }
+
+  #path3 {
+    fill: #28b446 ;
+  }
+
+  #path4 {
+    fill: #f14336;
+  }
+
+  #Capa_1{
+    enable-background: new 0 0 22.773 22.773;
+  }

@@ -1,0 +1,53 @@
+.social-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.social-container .social-button {
+  background-color: rgb(64, 162, 216);
+  border: 5px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-container .social-button .svg {
+  fill: white;
+  margin: auto;
+}
+
+.social-container .social-button:hover {
+  transform: scale(1.2);
+  background-color: #0b60b0;
+}
+
+.social-container .social-button:active {
+  transform: scale(0.9);
+}
+
+
+
+
+.password-container {
+  position: relative;
+}
+.password-input {
+  width: 100%;
+  padding: 10px;
+}
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+

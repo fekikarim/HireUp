@@ -1,0 +1,28 @@
+#submit_error {
+  color: red;
+  margin-left: 15px;
+}
+
+#subsForm .mb-3 {
+  position: relative;
+}
+
+#subsForm .mb-3 span {
+  position: absolute;
+  bottom: 8.5px;
+  right: 8.5px;
+  color: red;
+  pointer-events: none; /* Ensure the span doesn't interfere with input events */
+}
+
+#featForm .mb-3 span {
+  position: absolute;
+  bottom: 8.5px;
+  right: 8.5px;
+  color: red;
+  pointer-events: none; /* Ensure the span doesn't interfere with input events */
+}
+
+#featForm .mb-3 {
+  position: relative;
+}

@@ -1,0 +1,1 @@
+download cmake (Windows x64 Installer:) [add it to path too] from : https://cmake.org/download/

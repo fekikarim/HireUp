@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        select {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        option {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #qr-reader {
+            width: 500px;
+            position: relative;
+            padding: 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        #qr-reader__scan_region {
+            text-align: center;
+            position: relative;
+            width: 100%;
+        }
+
+        #qr-reader__scan_region video {
+            width: 100%;
+        }
+
+        #qr-reader__dashboard {
+            width: 100%;
+            padding: 10px 0;
+            text-align: left;
+            background-color: #f1f1f1;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        #qr-reader-results {
+            margin-top: 20px;
+            width: 500px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #qr-reader-results div {
+            padding: 5px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        #qr-reader-results div:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="qr-reader-results" style="display: none;"></div>
+    <h1>scane qr code</h1>
+    <div style="display: flex;justify-content: center;">
+        <div id="qr-reader" style="width: 500px;"></div>
+    </div>
+
+
+    <script src="https://unpkg.com/html5-qrcode"></script>
+
+    <script>
+        function sendMessageToParent(status, qrdata) {
+            // Create a JSON object
+            var jsonData = {
+                message: 'the qr is ready :',
+                data: {
+                    valid: status,
+                    data: qrdata,
+                }
+            };
+
+            // Send JSON data to the parent window
+            window.parent.postMessage(jsonData, '*');
+        }
+        
+
+    </script>
+
+    <script>
+        // CHECK IF DOM IS READY
+        function domReady(fn) {
+            if (document.readyState === 'complete' || document.readyState === 'interactive') {
+                setTimeout(fn, 1);
+            } else {
+                document.addEventListener('DOMContentLoaded', fn);
+            }
+        }
+
+        domReady(function () {
+            var resultContainer = document.getElementById('qr-reader-results');
+            var lastResult, countResults = 0;
+
+            function onScanSuccess(decodedText, decodedResult) {
+                if (decodedText !== lastResult) {
+                    ++countResults;
+                    lastResult = decodedText;
+                    //resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
+                    var parts = decodedText.split("||");
+
+                    if (parts.length !== 2) {
+                        //resultContainer.innerHTML += `<div style="color: red;">Invalid QR code</div>`;
+                        console.log("Invalid QR code");
+                        sendMessageToParent(false, null);
+                        return;
+                    }
+
+                    var beforePipe = parts[0].trim();
+                    var afterPipe = parts[1].trim();
+
+                    if (afterPipe.includes('HireUp Be.net')) {
+                        //resultContainer.innerHTML += `<div style="color: green;">Signature is valid</div>`;
+                        console.log("Signature is valid");
+                        sendMessageToParent(true, beforePipe);
+                    } else {
+                        //resultContainer.innerHTML += `<div style="color: red;">Signature is invalid</div>`;
+                        console.log("Signature is invalid");
+                        sendMessageToParent(false, beforePipe);
+
+                    }
+                }
+            }
+
+            var html5QrcodeScanner = new Html5QrcodeScanner(
+                "qr-reader", { fps: 10, qrbox: 250 });
+            html5QrcodeScanner.render(onScanSuccess);
+        });
+
+    </script>
+
+</body>
+
+</html>

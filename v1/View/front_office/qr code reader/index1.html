@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner with Overlay</title>
+</head>
+<body>
+    <div id="qr-reader-results"></div>
+    <h1>Scan QR Code</h1>
+    <div style="display: flex; justify-content: center;">
+        <canvas id="qr-canvas" style="border: 1px solid black;"></canvas>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode"></script>
+
+    <script>
+        // CHECK IF DOM IS READY
+        function domReady(fn) {
+            if (document.readyState === 'complete' || document.readyState === 'interactive') {
+                setTimeout(fn, 1);
+            } else {
+                document.addEventListener('DOMContentLoaded', fn);
+            }
+        }
+
+        domReady(async function () {
+            var resultContainer = document.getElementById('qr-reader-results');
+            var lastResult, countResults = 0;
+            var canvas = document.getElementById('qr-canvas');
+            var context = canvas.getContext('2d');
+            var qrboxSize = 250;
+
+            // Set canvas size
+            canvas.width = 500;
+            canvas.height = 500;
+
+            // Function to draw overlay based on QR code result
+            function drawOverlay(color) {
+                context.strokeStyle = color;
+                context.lineWidth = 5;
+                context.strokeRect(10, 10, canvas.width - 20, canvas.height - 20);
+            }
+
+            function onScanSuccess(decodedText, decodedResult) {
+                if (decodedText !== lastResult) {
+                    ++countResults;
+                    lastResult = decodedText;
+                    resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
+
+                    // Draw overlay based on condition
+                    if (decodedText.includes('valid')) {
+                        drawOverlay('green');
+                    } else {
+                        drawOverlay('red');
+                    }
+                }
+            }
+
+            const html5QrCode = new Html5Qrcode(canvas.id);
+            const config = { fps: 10, qrbox: qrboxSize };
+
+            // Start the camera and QR code scanner
+            try {
+                const qrCodeSuccessCallback = message => {
+                    onScanSuccess(message);
+                };
+                const qrCodeErrorCallback = errorMessage => {
+                    // Handle error (optional)
+                };
+
+                await html5QrCode.start(
+                    { facingMode: "environment" }, 
+                    config, 
+                    qrCodeSuccessCallback,
+                    qrCodeErrorCallback
+                );
+
+                const video = document.querySelector("video");
+                const drawFrame = () => {
+                    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+                    requestAnimationFrame(drawFrame);
+                };
+                drawFrame();
+            } catch (error) {
+                console.error("Failed to start QR code scanner", error);
+            }
+        });
+    </script>
+</body>
+</html>

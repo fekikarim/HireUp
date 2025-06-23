@@ -1,0 +1,7 @@
+PyPDF2
+pybase64
+fitz
+jsons
+os-sys
+regex
+Python-IO

@@ -1,0 +1,18 @@
+function overwriteDataFile($filePath, $newContent) {
+
+    // Open the file for writing with error handling
+    if (!$handle = fopen($filePath, 'w')) {
+      return false;  // Indicate error
+    }
+  
+    // Write the new content to the file
+    if (!fwrite($handle, $newContent)) {
+      fclose($handle);
+      return false;  // Indicate error
+    }
+  
+    // Close the file
+    fclose($handle);
+  
+    return true;  // Indicate success
+}
