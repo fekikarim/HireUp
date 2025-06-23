@@ -275,6 +275,8 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
 
 ### 🏆 **Our SDG Contributions**
 
+<div align="center">
+
 | SDG Goal | Our Impact |
 |----------|------------|
 | 🚺 **SDG 5: Gender Equality** | Bias-free AI recruitment algorithms |
@@ -282,6 +284,8 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
 | 🤝 **SDG 10: Reduced Inequality** | Inclusive opportunities for all backgrounds |
 | 🎓 **SDG 4: Quality Education** | Skills development and training programs |
 | 🏘️ **SDG 11: Sustainable Cities** | Remote work and local job opportunities |
+
+</div>
 
 ### 🌱 **Sustainability Initiatives**
 
@@ -383,7 +387,7 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
   ### � **Social Media**
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-feki%20karim-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/karimfeki)
-  [![GitHub](https://img.shields.io/badge/GitHub-feki-karim-181717?style=for-the-badge&logo=github)](https://github.com/fekikarim)
+  [![GitHub](https://img.shields.io/badge/GitHub-fekikarim-181717?style=for-the-badge&logo=github)](https://github.com/fekikarim)
   
 </div>
 
