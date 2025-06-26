@@ -374,96 +374,52 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
 ## 📞 Contact & Support
 
 <div align="center">
-  
+
   ### 🤝 **Get In Touch**
-  
+
   <table>
     <tr>
       <td align="center">
-        <h3>🌐 **Website**</h3>
+        <h3>🌐 Website</h3>
         <a href="http://localhost/hireup/v1/">HireUp Platform</a>
       </td>
       <td align="center">
-        <h3>📧 **Email**</h3>
-        <a href="mailto:feki.karim28@gmail.com">feki.karim28@gmail.com</a>
+        <h3>📧 Email</h3>
+        <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
       </td>
       <td align="center">
-        <h3>💬 **Support**</h3>
+        <h3>💬 Support</h3>
         <a href="mailto:support@be-net.team">support@be-net.team</a>
       </td>
     </tr>
 
     <tr>
       <td align="center">
-        <h3>🌐 **Website**</h3>
-        <a href="http://localhost/hireup/v1/">HireUp Platform</a>
-      </td>
-      <td align="center">
-        <h3>📧 **Email**</h3>
-        <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
-      </td>
-      <td align="center">
-        <h3>💬 **Support**</h3>
-        <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-      </td>
-      <td align="center">
-        <h3>📧 **Email**</h3>
+        <h3>📧 Team</h3>
         <a href="mailto:nesrine.derouiche15@gmail.com">Nesrine Derouiche</a>
       </td>
       <td align="center">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-      </td>
-      <td align="center">
-        <h3>📧 **Email**</h3>
         <a href="mailto:abidi.mohamed.1@esprit.tn">Abidi Mohamed</a>
       </td>
       <td align="center">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-      </td>
-      <td align="center">
-        <h3>📧 **Email**</h3>
         <a href="mailto:salma.laifi@esprit.tn">Salma Laifi</a>
       </td>
-      <td align="center">
-      </td>
     </tr>
 
     <tr>
       <td align="center">
-      </td>
-      <td align="center">
-        <h3>📧 **Email**</h3>
         <a href="mailto:amin.hmem@esprit.tn">Amin Hmem</a>
       </td>
       <td align="center">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-      </td>
-      <td align="center">
-        <h3>📧 **Email**</h3>
         <a href="mailto:amine.saadallah@esprit.tn">Amine Saadallah</a>
       </td>
       <td align="center">
+        <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
       </td>
     </tr>
+    
   </table>
-  
+
   ### � **Social Media**
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-feki%20karim-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/karimfeki)
