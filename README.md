@@ -375,72 +375,107 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
 
 <div align="center">
 
-  ### 🤝 **Get In Touch**
+  <h3>🤝 Get In Touch</h3>
 
   <table>
     <tr>
       <td align="center">
-        <h3>🌐 Website</h3>
+        <strong>🌐 Website</strong><br>
         <a href="http://localhost/hireup/v1/">HireUp Platform</a>
       </td>
       <td align="center">
-        <h3>📧 Email</h3>
+        <strong>📧 Email</strong><br>
         <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
       </td>
       <td align="center">
-        <h3>💬 Support</h3>
+        <strong>💬 Support</strong><br>
         <a href="mailto:support@be-net.team">support@be-net.team</a>
       </td>
     </tr>
-
     <tr>
       <td align="center">
-        <h3>📧 Team</h3>
-        <a href="mailto:nesrine.derouiche15@gmail.com">Nesrine Derouiche</a>
+        <strong>👤 Nesrine Derouiche</strong><br>
+        <a href="mailto:nesrine.derouiche15@gmail.com">Email</a>
       </td>
       <td align="center">
-        <a href="mailto:abidi.mohamed.1@esprit.tn">Abidi Mohamed</a>
+        <strong>👤 Abidi Mohamed</strong><br>
+        <a href="mailto:abidi.mohamed.1@esprit.tn">Email</a>
       </td>
       <td align="center">
-        <a href="mailto:salma.laifi@esprit.tn">Salma Laifi</a>
+        <strong>👤 Salma Laifi</strong><br>
+        <a href="mailto:salma.laifi@esprit.tn">Email</a>
       </td>
     </tr>
-
     <tr>
       <td align="center">
-        <a href="mailto:amin.hmem@esprit.tn">Amin Hmem</a>
+        <strong>👤 Amin Hmem</strong><br>
+        <a href="mailto:amin.hmem@esprit.tn">Email</a>
       </td>
       <td align="center">
-        <a href="mailto:amine.saadallah@esprit.tn">Amine Saadallah</a>
+        <strong>👤 Amine Saadallah</strong><br>
+        <a href="mailto:amine.saadallah@esprit.tn">Email</a>
       </td>
       <td align="center">
+        <strong>📨 Backup Email</strong><br>
         <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
       </td>
     </tr>
-    
   </table>
 
-  ### � **Social Media**
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-feki%20karim-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/karimfeki)
-  [![GitHub](https://img.shields.io/badge/GitHub-fekikarim-181717?style=for-the-badge&logo=github)](https://github.com/fekikarim)
+  <br>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nesrine%20Derouiche-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nesrine-derouiche)
-  [![GitHub](https://img.shields.io/badge/GitHub-Nesrine%20Derouiche-181717?style=for-the-badge&logo=github)](https://github.com/nesrine77)
+  <h3>🔗 Social Media</h3>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Abidi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/med-abidi)
-  [![GitHub](https://img.shields.io/badge/GitHub-Mohamed%20Abidi-181717?style=for-the-badge&logo=github)](https://github.com/hamabtw)
+  <!-- Feki Karim -->
+  <a href="https://linkedin.com/in/karimfeki">
+    <img src="https://img.shields.io/badge/LinkedIn-Feki%20Karim-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Feki Karim" />
+  </a>
+  <a href="https://github.com/fekikarim">
+    <img src="https://img.shields.io/badge/GitHub-fekikarim-181717?style=for-the-badge&logo=github" alt="GitHub - Feki Karim" />
+  </a>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Salma%20Laifi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/salma-laifi-236251300/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Salma%20Laifi-181717?style=for-the-badge&logo=github)](https://github.com/salma-laifi)
+  <!-- Nesrine Derouiche -->
+  <a href="https://linkedin.com/in/nesrine-derouiche">
+    <img src="https://img.shields.io/badge/LinkedIn-Nesrine%20Derouiche-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Nesrine" />
+  </a>
+  <a href="https://github.com/nesrine77">
+    <img src="https://img.shields.io/badge/GitHub-Nesrine%20Derouiche-181717?style=for-the-badge&logo=github" alt="GitHub - Nesrine" />
+  </a>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amin%20Hmem-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amin-hmem)
-  [![GitHub](https://img.shields.io/badge/GitHub-Amin%20Hmem-181717?style=for-the-badge&logo=github)](https://github.com/hmem2003)
+  <!-- Mohamed Abidi -->
+  <a href="https://linkedin.com/in/med-abidi">
+    <img src="https://img.shields.io/badge/LinkedIn-Mohamed%20Abidi-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Mohamed" />
+  </a>
+  <a href="https://github.com/hamabtw">
+    <img src="https://img.shields.io/badge/GitHub-Mohamed%20Abidi-181717?style=for-the-badge&logo=github" alt="GitHub - Mohamed" />
+  </a>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amine%20Saadallah-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohamed-amine-saadallah-1620a1278/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Amine%20Saadallah-181717?style=for-the-badge&logo=github)](https://github.com/aminesaadallah)
-  
+  <!-- Salma Laifi -->
+  <a href="https://www.linkedin.com/in/salma-laifi-236251300/">
+    <img src="https://img.shields.io/badge/LinkedIn-Salma%20Laifi-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Salma" />
+  </a>
+  <a href="https://github.com/salma-laifi">
+    <img src="https://img.shields.io/badge/GitHub-Salma%20Laifi-181717?style=for-the-badge&logo=github" alt="GitHub - Salma" />
+  </a>
+
+  <!-- Amin Hmem -->
+  <a href="https://linkedin.com/in/amin-hmem">
+    <img src="https://img.shields.io/badge/LinkedIn-Amin%20Hmem-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Amin" />
+  </a>
+  <a href="https://github.com/hmem2003">
+    <img src="https://img.shields.io/badge/GitHub-Amin%20Hmem-181717?style=for-the-badge&logo=github" alt="GitHub - Amin" />
+  </a>
+
+  <!-- Amine Saadallah -->
+  <a href="https://www.linkedin.com/in/mohamed-amine-saadallah-1620a1278/">
+    <img src="https://img.shields.io/badge/LinkedIn-Amine%20Saadallah-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Amine" />
+  </a>
+  <a href="https://github.com/aminesaadallah">
+    <img src="https://img.shields.io/badge/GitHub-Amine%20Saadallah-181717?style=for-the-badge&logo=github" alt="GitHub - Amine" />
+  </a>
+
 </div>
+
 
 ---
 
