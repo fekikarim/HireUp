@@ -356,6 +356,16 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
   ### 🏅 Industry Recognition
 
    [📄 View Certificate of bal CDIO 2024 - Karim Feki (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Karim%20Feki.pdf)
+
+   [📄 View Certificate of bal CDIO 2024 - Nesrine Derouiche (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Nesrine%20Derouiche.pdf)
+
+   [📄 View Certificate of bal CDIO 2024 - Mohamed Abidi (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Mohamed%20Abidi%20(1).pdf)
+
+   [📄 View Certificate of bal CDIO 2024 - Salma Laifi (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Salma%20Laifi.pdf)
+
+   [📄 View Certificate of bal CDIO 2024 - Amin Hmem (PDF)](demo-images\Certificate%20of%20bal%20CDIO%202024_Amin%20Hmem%20(1).pdf)
+
+   [📄 View Certificate of bal CDIO 2024 - Amine Saadallah(PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Amine%20Saadallah.pdf)
   
 </div>
 
@@ -382,12 +392,97 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
         <a href="mailto:support@be-net.team">support@be-net.team</a>
       </td>
     </tr>
+
+    <tr>
+      <td align="center">
+        <h3>🌐 **Website**</h3>
+        <a href="http://localhost/hireup/v1/">HireUp Platform</a>
+      </td>
+      <td align="center">
+        <h3>📧 **Email**</h3>
+        <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
+      </td>
+      <td align="center">
+        <h3>💬 **Support**</h3>
+        <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center">
+      </td>
+      <td align="center">
+        <h3>📧 **Email**</h3>
+        <a href="mailto:nesrine.derouiche15@gmail.com">Nesrine Derouiche</a>
+      </td>
+      <td align="center">
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center">
+      </td>
+      <td align="center">
+        <h3>📧 **Email**</h3>
+        <a href="mailto:abidi.mohamed.1@esprit.tn">Abidi Mohamed</a>
+      </td>
+      <td align="center">
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center">
+      </td>
+      <td align="center">
+        <h3>📧 **Email**</h3>
+        <a href="mailto:salma.laifi@esprit.tn">Salma Laifi</a>
+      </td>
+      <td align="center">
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center">
+      </td>
+      <td align="center">
+        <h3>📧 **Email**</h3>
+        <a href="mailto:amin.hmem@esprit.tn">Amin Hmem</a>
+      </td>
+      <td align="center">
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center">
+      </td>
+      <td align="center">
+        <h3>📧 **Email**</h3>
+        <a href="mailto:amine.saadallah@esprit.tn">Amine Saadallah</a>
+      </td>
+      <td align="center">
+      </td>
+    </tr>
   </table>
   
   ### � **Social Media**
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-feki%20karim-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/karimfeki)
   [![GitHub](https://img.shields.io/badge/GitHub-fekikarim-181717?style=for-the-badge&logo=github)](https://github.com/fekikarim)
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nesrine%20Derouiche-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nesrine-derouiche)
+  [![GitHub](https://img.shields.io/badge/GitHub-Nesrine%20Derouiche-181717?style=for-the-badge&logo=github)](https://github.com/nesrine77)
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Abidi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/med-abidi)
+  [![GitHub](https://img.shields.io/badge/GitHub-Mohamed%20Abidi-181717?style=for-the-badge&logo=github)](https://github.com/hamabtw)
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Salma%20Laifi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/salma-laifi-236251300/)
+  [![GitHub](https://img.shields.io/badge/GitHub-Salma%20Laifi-181717?style=for-the-badge&logo=github)](https://github.com/salma-laifi)
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amin%20Hmem-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amin-hmem)
+  [![GitHub](https://img.shields.io/badge/GitHub-Amin%20Hmem-181717?style=for-the-badge&logo=github)](https://github.com/hmem2003)
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amine%20Saadallah-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohamed-amine-saadallah-1620a1278/)
+  [![GitHub](https://img.shields.io/badge/GitHub-Amine%20Saadallah-181717?style=for-the-badge&logo=github)](https://github.com/aminesaadallah)
   
 </div>
 
