@@ -398,6 +398,7 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
       <strong>📧 My Email</strong><br>
       <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
     </td>
+    <td></td>
   </tr>
 
   <tr>
