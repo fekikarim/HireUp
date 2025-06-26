@@ -398,7 +398,10 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
       <strong>📧 My Email</strong><br>
       <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
     </td>
-    <td></td>
+    <td align="center">
+      <strong>📨 Backup Email</strong><br>
+      <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
+    </td>
   </tr>
 
   <tr>
@@ -425,10 +428,7 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
       <strong>👤 Amine Saadallah</strong><br>
       <a href="mailto:amine.saadallah@esprit.tn">Email</a>
     </td>
-    <td align="center">
-      <strong>📨 Backup Email</strong><br>
-      <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
-    </td>
+    <td></td>
   </tr>
 </table>
 
