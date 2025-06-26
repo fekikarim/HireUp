@@ -21,7 +21,8 @@
 **HireUp** represents the future of recruitment technology - a sophisticated, AI-driven platform that transcends traditional job boards. Built with cutting-edge technology and powered by artificial intelligence, HireUp creates meaningful connections between talent and opportunity.
 
 ### 🌟 Our Mission
-> *"To democratize access to career opportunities while empowering organizations to build exceptional teams through intelligent technology and human-centered design."*
+
+> _"To democratize access to career opportunities while empowering organizations to build exceptional teams through intelligent technology and human-centered design."_
 
 We're committed to creating a **triple-win ecosystem**: success for job seekers, growth for employers, and positive impact for society through meaningful employment connections.
 
@@ -60,36 +61,42 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 ## ✨ Revolutionary Features
 
 ### 🔍 **Intelligent Job Ecosystem**
+
 - 🎯 **AI-Powered Matching**: Advanced algorithms for perfect job-candidate alignment
 - 🔍 **Smart Search Engine**: Natural language processing for intuitive job discovery
 - 📊 **Predictive Analytics**: Data-driven insights for career progression
 - 🎪 **Dynamic Recommendations**: Personalized job suggestions based on user behavior
 
 ### 👤 **Next-Gen Profile Management**
+
 - 🏆 **360° Professional Profiles**: Comprehensive skill showcasing with multimedia support
 - 🔐 **Blockchain Verification**: Immutable credential verification system
 - 📱 **Social Integration**: LinkedIn, GitHub, and portfolio platform connections
-- 🎯 **Skills Assessment Engine**: AI-powered competency evaluation  
+- 🎯 **Skills Assessment Engine**: AI-powered competency evaluation
 
 ### 💬 **Advanced Communication Hub**
+
 - 💬 **Real-Time Messaging**: Instant communication with typing indicators and read receipts
 - 📞 **Integrated Video Calls**: HD video interviews with screen sharing capabilities
-- 📅 **Smart Scheduling**: AI-optimized meeting coordination across time zones 
+- 📅 **Smart Scheduling**: AI-optimized meeting coordination across time zones
 - 🌐 **Multi-Language Support**: Real-time translation for global communication
 
 ### 🤖 **Cutting-Edge AI Suite**
+
 - 🧠 **HireUp ChatBot**: Multi-model AI assistant (Gemini integration)
 - 🎤 **Voice Recognition**: Natural speech processing with 98% accuracy
 - 👁️ **Biometric Authentication**: Advanced face recognition with liveness detection
 - 📝 **Resume Intelligence**: AI-powered resume optimization and ATS compatibility
 
 ### 🔐 **Security & Authentication**
+
 - Multi-factor authentication
 - Secure data encryption
 - Role-based access control
 - Account verification system
 
 ### 🌐 **Additional Features**
+
 - Multi-language support
 - Mobile-responsive design
 - Payment processing (Stripe integration)
@@ -104,6 +111,7 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 </div>
 
 ### **🚀 Backend Infrastructure**
+
 - **PHP 8.0+** - High-performance server-side processing
 - **MySQL 8.0** - ACID-compliant relational database with JSON support
 - **PDO** - Secure database abstraction with prepared statements
@@ -111,6 +119,7 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 - **Redis** - In-memory caching for lightning-fast performance
 
 ### **🎨 Frontend Excellence**
+
 - **HTML5/CSS3** - Semantic markup with modern styling
 - **TypeScript** - Type-safe JavaScript with enhanced developer experience
 - **Bootstrap 5** - Mobile-first responsive framework
@@ -119,6 +128,7 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 - **SASS/SCSS** - Advanced CSS preprocessing with mixins and variables
 
 ### **🤖 AI & Machine Learning**
+
 - **Python 3.10+** - Core AI/ML development language
 - **Ollama** - Local LLM management and deployment
 - **TensorFlow** - Deep learning model training and inference
@@ -164,12 +174,12 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 
 <div align="center">
 
-| Requirement | Version | Purpose |
-|-------------|---------|---------|
-| **PHP** | 8.0+ | Core backend language |
-| **MySQL** | 8.0+ | Primary database |
-| **Python** | 3.10+ | AI/ML features |
-| **Composer** | 2.0+ | PHP dependency management |
+| Requirement  | Version | Purpose                   |
+| ------------ | ------- | ------------------------- |
+| **PHP**      | 8.0+    | Core backend language     |
+| **MySQL**    | 8.0+    | Primary database          |
+| **Python**   | 3.10+   | AI/ML features            |
+| **Composer** | 2.0+    | PHP dependency management |
 
 </div>
 
@@ -259,6 +269,7 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 </div>
 
 ### 🏢 **About Be.net Team**
+
 Be.net is a cutting-edge software development collective specializing in AI-powered web applications and innovative digital solutions. Our team combines deep technical expertise with creative problem-solving to deliver exceptional software products that push the boundaries of what's possible.
 
 ## 🌍 Global Impact & Sustainability
@@ -277,13 +288,13 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
 
 <div align="center">
 
-| SDG Goal | Our Impact |
-|----------|------------|
-| 🚺 **SDG 5: Gender Equality** | Bias-free AI recruitment algorithms |
-| 💼 **SDG 8: Decent Work** | Quality job creation and fair employment |
+| SDG Goal                          | Our Impact                                  |
+| --------------------------------- | ------------------------------------------- |
+| 🚺 **SDG 5: Gender Equality**     | Bias-free AI recruitment algorithms         |
+| 💼 **SDG 8: Decent Work**         | Quality job creation and fair employment    |
 | 🤝 **SDG 10: Reduced Inequality** | Inclusive opportunities for all backgrounds |
-| 🎓 **SDG 4: Quality Education** | Skills development and training programs |
-| 🏘️ **SDG 11: Sustainable Cities** | Remote work and local job opportunities |
+| 🎓 **SDG 4: Quality Education**   | Skills development and training programs    |
+| 🏘️ **SDG 11: Sustainable Cities** | Remote work and local job opportunities     |
 
 </div>
 
@@ -355,18 +366,18 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
   
   ### 🏅 Industry Recognition
 
-   [📄 View Certificate of bal CDIO 2024 - Karim Feki (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Karim%20Feki.pdf)
+[📄 View Certificate of bal CDIO 2024 - Karim Feki (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Karim%20Feki.pdf)
 
-   [📄 View Certificate of bal CDIO 2024 - Nesrine Derouiche (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Nesrine%20Derouiche.pdf)
+[📄 View Certificate of bal CDIO 2024 - Nesrine Derouiche (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Nesrine%20Derouiche.pdf)
 
-   [📄 View Certificate of bal CDIO 2024 - Mohamed Abidi (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Mohamed%20Abidi%20(1).pdf)
+[📄 View Certificate of bal CDIO 2024 - Mohamed Abidi (PDF)](<demo-images/Certificate%20of%20bal%20CDIO%202024_Mohamed%20Abidi%20(1).pdf>)
 
-   [📄 View Certificate of bal CDIO 2024 - Salma Laifi (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Salma%20Laifi.pdf)
+[📄 View Certificate of bal CDIO 2024 - Salma Laifi (PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Salma%20Laifi.pdf)
 
-   [📄 View Certificate of bal CDIO 2024 - Amin Hmem (PDF)](demo-images\Certificate%20of%20bal%20CDIO%202024_Amin%20Hmem%20(1).pdf)
+[📄 View Certificate of bal CDIO 2024 - Amin Hmem (PDF)](<demo-images\Certificate%20of%20bal%20CDIO%202024_Amin%20Hmem%20(1).pdf>)
 
-   [📄 View Certificate of bal CDIO 2024 - Amine Saadallah(PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Amine%20Saadallah.pdf)
-  
+[📄 View Certificate of bal CDIO 2024 - Amine Saadallah(PDF)](demo-images/Certificate%20of%20bal%20CDIO%202024_Amine%20Saadallah.pdf)
+
 </div>
 
 ---
@@ -378,45 +389,47 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
   <h3>🤝 Get In Touch</h3>
 
   <table>
-    <tr>
-      <td align="center">
-        <strong>🌐 Website</strong><br>
-        <a href="http://localhost/hireup/v1/">HireUp Platform</a>
-      </td>
-      <td align="center">
-        <strong>📧 Email</strong><br>
-        <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>👤 Nesrine Derouiche</strong><br>
-        <a href="mailto:nesrine.derouiche15@gmail.com">Email</a>
-      </td>
-      <td align="center">
-        <strong>👤 Abidi Mohamed</strong><br>
-        <a href="mailto:abidi.mohamed.1@esprit.tn">Email</a>
-      </td>
-      <td align="center">
-        <strong>👤 Salma Laifi</strong><br>
-        <a href="mailto:salma.laifi@esprit.tn">Email</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>👤 Amin Hmem</strong><br>
-        <a href="mailto:amin.hmem@esprit.tn">Email</a>
-      </td>
-      <td align="center">
-        <strong>👤 Amine Saadallah</strong><br>
-        <a href="mailto:amine.saadallah@esprit.tn">Email</a>
-      </td>
-      <td align="center">
-        <strong>📨 Backup Email</strong><br>
-        <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
-      </td>
-    </tr>
-  </table>
+  <tr>
+    <td align="center">
+      <strong>🌐 Website</strong><br>
+      <a href="http://localhost/hireup/v1/">HireUp Platform</a>
+    </td>
+    <td align="center">
+      <strong>📧 My Email</strong><br>
+      <a href="mailto:feki.karim28@gmail.com">Feki Karim</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <strong>👤 Nesrine Derouiche</strong><br>
+      <a href="mailto:nesrine.derouiche15@gmail.com">Email</a>
+    </td>
+    <td align="center">
+      <strong>👤 Abidi Mohamed</strong><br>
+      <a href="mailto:abidi.mohamed.1@esprit.tn">Email</a>
+    </td>
+    <td align="center">
+      <strong>👤 Salma Laifi</strong><br>
+      <a href="mailto:salma.laifi@esprit.tn">Email</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <strong>👤 Amin Hmem</strong><br>
+      <a href="mailto:amin.hmem@esprit.tn">Email</a>
+    </td>
+    <td align="center">
+      <strong>👤 Amine Saadallah</strong><br>
+      <a href="mailto:amine.saadallah@esprit.tn">Email</a>
+    </td>
+    <td align="center">
+      <strong>📨 Backup Email</strong><br>
+      <a href="mailto:be.net.tn@outlook.com">be.net.tn@outlook.com</a>
+    </td>
+  </tr>
+</table>
 
   <br>
 
@@ -471,7 +484,6 @@ HireUp is proudly committed to advancing the **United Nations Sustainable Develo
   </a>
 
 </div>
-
 
 ---
 
