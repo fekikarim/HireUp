@@ -31,18 +31,18 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 ## 📸 Platform Showcase
 
 <div align="center">
+
+  ### 📱 Home Page
+  ![HireUp Home Page](./demo-images/Home Page.png)
+  *Seamless user experience with a fully responsive, cross-platform design*
   
-  ### 🖥️ Desktop Experience
-  ![HireUp Dashboard](./demo-images/dashboard-desktop.png)
+  ### 📊 Dashboard
+  ![HireUp Dashboard](./demo-images/Dashboard.png)
   *Modern, intuitive dashboard with comprehensive analytics*
   
-  ### 📱 Mobile Experience  
-  ![HireUp Mobile](./demo-images/mobile-interface.png)
-  *Fully responsive design optimized for all devices*
-  
-  ### 🤖 AI-Powered Features
-  ![AI ChatBot](./demo-images/ai-chatbot.png)
-  *Advanced AI assistant with multi-model support*
+  ### 🤖 About Page
+  ![About Page](./demo-images/About Us.png)
+  *Integrated AI-powered assistant with support for multi-modal interactions*
   
 </div>
 
