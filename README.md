@@ -33,7 +33,7 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
 <div align="center">
 
   ### 📱 Home Page
-  ![HireUp Home Page](./demo-images/Home Page.png)
+  ![HireUp Home Page](./demo-images/Home_Page.png)
   *Seamless user experience with a fully responsive, cross-platform design*
   
   ### 📊 Dashboard
@@ -41,7 +41,7 @@ We're committed to creating a **triple-win ecosystem**: success for job seekers,
   *Modern, intuitive dashboard with comprehensive analytics*
   
   ### 🤖 About Page
-  ![About Page](./demo-images/About Us.png)
+  ![About Page](./demo-images/About_Us.png)
   *Integrated AI-powered assistant with support for multi-modal interactions*
   
 </div>
