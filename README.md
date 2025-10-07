@@ -9,7 +9,7 @@
   [![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-00758F.svg)](https://mysql.com/)
   [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB.svg)](https://python.org/)
   
-  **🎬 [Watch Demo Trailer](https://www.youtube.com/watch?v=your-trailer-link)**
+  **🎬 [Watch Demo Trailer](https://www.youtube.com/watch?v=RhInW6xJelM)**
   
   *Revolutionizing recruitment through AI-powered technology and intelligent matchmaking*
 </div>
